@@ -1,0 +1,119 @@
+/*
+tip from mark pilgrim:
+http://diveintoaccessibility.org/day_26_using_relative_font_sizes.html
+*/
+
+body, td {
+	font-family: verdana;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 10pt;
+}
+
+H1 {	font-family: Arial;
+	font-size: 18px;
+	color: rgb(169,128,31); 
+	font-weight:normal; 
+	margin:10px 0px 5px 0px;
+	padding:0px 0px 5px 0px;
+	border-bottom : 1px solid #cccccc
+}
+
+/* used to define the title bar in each module */
+
+h2 { font-family: Verdana; font-size: 16px}
+h3 { font-family: Verdana; font-size: 14px}
+
+
+pre {font-family: Courier; font-size: 10pt; margin-left: 0.5in }
+code {font-family: Courier; font-size: 10pt; }
+
+.listtitle
+{
+	margin-left: 10px; 
+	margin-top: -5; 
+	font-weight: bold; 
+	font-size: 12px; 
+	margin-bottom: 1px; 
+	padding-bottom: 2px; 
+	line-height: 14px; 
+	padding-top: 2px; 
+	text-align: left;
+	color: #E1FFFF;	
+}
+
+a.listTitleLink:link, a.listTitleLink:visited
+{
+	margin-left: 10px; 
+	margin-top: -5; 
+	font-weight: bold;  
+	margin-bottom: 1px; 
+	padding-bottom: 2px; 
+	line-height: 14px; 
+	padding-top: 2px; 
+	text-align: left;
+	color: #E1FFFF;
+	font-size:12px; 
+	text-decoration:none
+}
+
+a.listTitleLink:hover 
+{
+	margin-left: 10px; 
+	margin-top: -5; 
+	font-weight: bold;  
+	margin-bottom: 1px; 
+	padding-bottom: 2px; 
+	line-height: 14px; 
+	padding-top: 2px; 
+	text-align: left;
+	color: #E1FFFF;
+	font-size:12px; 
+	text-decoration:underline
+}
+
+a:link, a:visited {
+	font-weight: bold; font-size: 9pt;
+	text-decoration:none;	color:#0000af;
+	/* border-bottom: 1px dotted black; */
+}
+
+a:hover {
+  color: #0000ff; text-decoration: underline; font-size:9pt;	
+  font-weight: bold;        
+}
+
+li.listItem { list-style: circle outside #ffffff}
+
+.listitem, a.listitem, a.listitem:visited, a.listitem:active
+{
+	font-size: 8pt;
+	font-weight: normal;
+	color: White;
+}
+
+a.listItemLink:link, a.listItemLink:visited
+{
+	margin-left: 5px; 
+	font-size: 8pt;
+	font-weight: normal;
+	color: White;
+	text-decoration:none
+}
+
+a.listItemLink:hover 
+{	
+	margin-left: 5px; 
+	font-size: 8pt;
+	font-weight: normal;
+	color: White;
+	text-decoration:underline
+}
+
+pre {
+	border: 1px dashed #ffcc00;
+	background: #ffffdd;
+	padding:10pt;
+}
+
+
